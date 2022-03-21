@@ -1,0 +1,160 @@
+.cartao-fairytail {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+
+}
+
+.cartao-fairytail .cartao-topo {
+    padding: 30px 30px 0;
+}
+
+.cartao-fairytail .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-fairytail .tipo {
+    font-size: 12px;
+    background-color: #ffffff ;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-fairytail .cartao-logo img{
+    justify-content: space-between ;
+    margin-right: 10px;
+    margin-top: -20px;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.cartao-fairytail .detalhes {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+
+
+.cartao-fairytail .cartao-imagem{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    opacity: 1;
+    justify-content: center;
+}
+
+.cartao-fairytail .cartao-imagem:hover {
+    transform: scale(1.05);
+}
+
+
+.cartao-fairytail img {
+    max-height: 100%;
+    display: flex;
+    Margin: auto;
+    justify-content: center;
+
+}
+
+
+.cartao-fairytail .cartao-informacoes{
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 30px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: #000;
+    
+}
+
+.cartao-fairytail .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+    
+}
+
+.cartao-fairytail .cartao-informacoes .status, .cartao-fairytail .cartao-informacoes  .habilidades {
+    padding: 0px 10px 0px;
+    max-width: 300px;
+}
+
+.cartao-fairytail .cartao-informacoes  .habilidades ul li, .cartao-fairytail .cartao-informacoes  .status ul li {
+    border-bottom: 1px solid #c4c5c3;
+    padding:  0 0 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    
+}
+
+.cartao-fairytail.aberto {
+    display: block;
+}
+
+.tipo-fogo {
+    background-color: #f51b38;
+    background-image: url("https://thumbs.gfycat.com/WatchfulConfusedFawn-max-1mb.gif");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.tipo-maga-espadachim {
+    background-color: #ff8800;
+    background-image: url("https://thumbs.gfycat.com/PrestigiousVariableAmphiuma.webp");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.tipo-maga {
+    background-color: #2affff;
+    background-image: url("https://64.media.tumblr.com/265162147d496a6e7f9961941f014935/tumblr_inline_nv9brr9NiE1sdqozj_500.gifv");
+    margin: auto;
+}
+
+.tipo-gelo {
+    background-color: #0000CD;
+    background-image: url("https://thumbs.gfycat.com/UniformEasygoingDog.webp");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.tipo-agua {
+    background-color: #6d1a7c;
+    background-image: url("https://thumbs.gfycat.com/ParchedHotHornedviper-size_restricted.gif");
+    background-position: 50%;
+    
+}
+
+.tipo-ferro {
+    background-color: #303030 ;
+    background-image: url("https://thumbs.gfycat.com/ForkedPointedBlackfly.webp");
+    background-position: 50%;
+}
+
+.tipo-celeste {
+    background-image: url("https://i.pinimg.com/originals/a3/62/81/a36281b4f6701ae482d87ebb8d579720.gif");
+    margin: auto;
+}
+
+.tipo-raio{
+    background-image: url("https://64.media.tumblr.com/041ce48bfaf7449f6f8a51640d8a29f3/5d28ffd3fe023d0e-a2/s400x600/3b2844f947998931a65155cff8c9df429ed7febe.gifv");
+    margin: auto;
+}
+
+.tipo-gato {
+    background-color: #11cdee;
+    background-image: url("https://i.gifer.com/origin/5a/5acfe63011eade003edd611df1ec0f9e_w200.webp");
+    margin: auto;
+}

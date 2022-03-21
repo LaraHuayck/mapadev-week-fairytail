@@ -1,0 +1,81 @@
+@media (max-width: 750px){
+    body {
+        font-size: 12px;
+    }
+
+    .guilda {
+        flex-direction: column;
+        padding: 30 px 0;
+        
+    }
+
+    .cartao-fairytail {
+        max-width: 300px;
+    }
+
+    .cartao-fairytail .cartao-imagem {
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .cartao-fairytail .cartao-informacoes {
+        padding: 60px 0px 0px;
+        margin-top: -60px;
+        font-size: 13px;
+                
+    }
+
+    .cartao-fairytail .cartao-informacoes .habilidades h3 ul li{
+        flex-wrap: wrap;
+        word-wrap: wrap;
+    }
+        
+
+    .cartao-fairytail .cartao-informacoes .informacoes{
+        display: flex;
+        justify-content: space-between ;
+        padding: 0;
+        
+    }
+
+    .cartao-fairytail .cartao-informacoes h3 {
+        font-size: 16px;
+        
+    }
+
+
+    .listagem {
+        max-width: 300px; 
+        
+    }
+
+    .listagem ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .listagem .fairytail {
+        width: 140px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;  
+    }
+
+    .listagem .fairytail img {
+        width: 40%;
+        border-radius: 40%;
+        margin-bottom: -10px;
+        justify-content: center;
+    }
+
+
+    .listagem .fairytail span{
+        padding-right: 5px;
+    }
+
+}
+
